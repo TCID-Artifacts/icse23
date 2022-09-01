@@ -1,4 +1,4 @@
-## Use TDC3
+## Use TCID
 
 To use the model we trained and fine-tuned to check conformance of test-description pairs, run:
 
@@ -19,7 +19,7 @@ Finally, run:
 
 The predictions made by TDC3 for each given test-description pair must be on a column called TDC3Prediction of the CSV in the input folder. Lower predictions mean that the test description and the test are inconsistent.
 
-## Reproduce TDC3
+## Reproduce TCID
 
 If you want to prepare the dataset, train, evaluate and fine-tune a model yourself, follow the instructions in the data and models folders.
 
